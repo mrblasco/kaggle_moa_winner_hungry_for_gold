@@ -10,7 +10,7 @@ echo "Training 3-Stage NN Model  ... \n"
 python "$SCRIPT_PATH"/3stage-nn-train.py $INPUT_FOLDER "$MODEL_FOLDER"/3-stageNN
 
 echo "Training 2-Stage NN+TabNet Model  ... \n"
-python "$SCRIPT_PATH"/2stagenn-tabnet-train.py $INPUT_FOLDER "$MODEL_FOLDER"/2-stageNN-TabNet
+python "$SCRIPT_PATH"/2stage-nn-tabnet-train.py $INPUT_FOLDER "$MODEL_FOLDER"/2-stageNN-TabNet
 
 echo "Training Simple NN Old CV Model  ... \n"
 python "$SCRIPT_PATH"/simple-nn-old-split-train.py $INPUT_FOLDER "$MODEL_FOLDER"/simple-NN-Old-CV
